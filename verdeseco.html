@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="css/vendor/normalize.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" type="text/css" href="css/component1.css" /><!--incluido para el menu -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+    <script src="js/modernizr-2.6.2.min.js"></script><!--incluido para el menu -->
+    <!-- aqui pondremos el contenido html -->
+</head>
+<body>
+    <section class="lateral">
+        <div class="perfil">
+            <figure class="perfil__circulo">
+                <img src="img/perfil.png" alt="" class="perfil__foto">
+            </figure>
+            <h1 class="perfil__nombres">SISDECI</h1><br>
+            <a class="botonera" class="botonera" href="verdeseco.html">Ver Desarrollo Econ&oacute;mico</a><br>
+            <a class="botonera" class="botonera" href="verdefcivil.html">Ver Defensa Civil</a><br>
+        </div>
+    </section>
+
+    <div class="registro">
+        <section class="proyectos">
+            <header class="proyecto__titulo">
+                <h2>SELECCIONE DENTRO DEL MENÚ LA OPCION QUE DESEE GENERAR SU LICENCIA.</h2>
+            </header>
+        </section>
+    </div>
+
+        <div class="component">
+            <!-- Start Nav Structure -->
+				<button class="cn-button" id="cn-button">+</button>
+				<div class="cn-wrapper" id="cn-wrapper">
+				    <ul>
+				      <li><a href="ver_lic_de_eco.php?id_menu=1" >Expost</a></li>
+				      <li><a href="ver_licencia_desaeco.php?id_menu=2">Exante</a></li>
+				      <li><a href="ver_licencia_detalic.php?id_menu=3">Detalle</a></li>
+				     </ul>
+				</div>
+				<div id="cn-overlay" class="cn-overlay"></div>
+				<!-- End Nav Structure -->
+        </div>
+    <!-- /container -->
+		<script src="js/polyfills.js"></script>
+		<script src="js/demo1.js"></script>
+    <!-- For the demo ad only -->   
+</body>
+</html>

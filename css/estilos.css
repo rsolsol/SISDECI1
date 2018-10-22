@@ -1,0 +1,264 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Roboto', sans-serif;
+}
+input{
+    display: block;
+    float: none;
+    max-width: 900px;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    vertical-align: top;
+    width: 90%;
+}
+a{
+    text-decoration: none;
+    color: #0F7FB7;
+}
+.lateral{
+    background-color: #A00D1F;
+    bottom: 0;
+    left: 0;
+    padding: 1em;
+    position: fixed;
+    top: 0;
+    width: 20%;    
+}
+.botonera{
+    background: #E6E6E6;
+    -webkit-box-shadow: -1px 6px 10px 6px rgba(0,0,0,1);
+    -moz-box-shadow: -1px 6px 10px 6px rgba(0,0,0,1);
+    box-shadow: -1px 6px 10px 6px rgba(0,0,0,1);
+    display: block;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 5%;
+}
+/*estilo para mo_solicitud*/
+.consulta_solic{
+    background-color: rgba(243, 209, 130, 0.61);;
+    bottom: 0;
+    padding: 1em;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 80%;    
+}
+/*fin de estilo para mo_solicitud*/
+/*perfil*/
+.perfil__circulo{
+    border-radius: 50%;
+    height: 50px;
+    /*todo lo que escapa de los 50x50 que no se vea*/
+    margin: 0;
+    overflow: hidden;
+    width: 50px;
+}
+.perfil__foto{
+    width: 100%;
+}
+.perfil__nombres{
+    color: #fff;
+    font-size: 20px;
+    margin-left: .5em;
+    width: 250px;
+}
+.perfil__nombres, .perfil__circulo{
+    display: inline-block;
+    vertical-align: middle;
+}
+/*Información*/
+.informacion,.boton{
+    bottom: 1em;
+    color: #0f6a62;
+    position: absolute;
+}
+.informacion__titulo{
+    font-size: 18px;
+}
+
+/*habilidades*/
+.habilidades{
+ padding: 0;
+}
+.habilidad{
+    background-color: #0f6a62;
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    padding: .5em;
+    text-transform: uppercase;
+}
+.habilidad__proyecto{
+    background-color: #29597c;
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    padding: .5em;
+    text-transform: uppercase;
+}
+/*Proyectos*/
+.proyectos{
+    display: block;
+    float: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    max-width: 900px;
+    vertical-align: top;
+    width: 80%;
+}
+.proyecto__titulo{
+    color: #29597c;
+    font-size: 18px;
+    margin: 0px;
+    padding: 1px 10px;
+    text-align: center;
+}
+
+.registro{
+    background-color: rgba(243, 209, 130, 0.61);
+    display: flex;
+    right: 0;
+    height: 100%;
+    float: right;
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+    width: 80%;
+}
+input#expediente{
+    background-color: #fcfcfc;
+    border: 1px solid #E5E5E5;
+    border-radius: 3px;
+    display: block;
+    float: left;
+    font-family: Roboto;
+    font-weight: 300;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 5px;
+    padding-top: 15px;
+    vertical-align: top;
+    width: 25%;    
+}
+input#dni{
+    background-color: #fcfcfc;
+    border: 1px solid #E5E5E5;
+    border-radius: 3px;
+    display: block;
+    float: right;
+    font-family: Roboto;
+    font-weight: 300;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 5px;
+    padding-top: 15px;
+    vertical-align: top;
+    width: 25%;
+}
+
+#nombre1, #nombre2, #nombre3{
+    background-color: #fcfcfc;
+    border: 1px solid #E5E5E5;
+    border-radius: 3px;
+    display: inline;
+    font-family: Roboto;
+    font-weight: 300;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 5px;
+    padding-top: 15px;
+    vertical-align: top;
+    width: 30%;
+}
+#asunto,#razon_social, #observaciones, #arch_voucher, #arch_solicitud, #arch_dec_jur,#det_noacepta_DC,#det_anula,#res_deseco,#num_cart_des,#lic_desa_eco,#obser_desaprobar,#obser_anular,#num_resol_defcvl,#num_cart_defcvl,#obser_defcvl_desaprobar,#observacion_estado_desaeco,#giros,#direccion_defcvl,#obser_estado,#infoacta,#giro_desaeco,#direccion_desaeco{
+    background-color: #fcfcfc;
+    border: 1px solid #E5E5E5;
+    border-radius: 3px;
+    display: block;
+    float: none;
+    font-family: Roboto;
+    font-weight: 300;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 5px;
+    padding-top: 15px;
+    vertical-align: top;
+    width: 100%;
+}
+.parte1,.nombres,.apellidos,.empresa,.giros_grupos,.domicilio,.datos_domic,.vouchers,.aprobacion,.Desaprobacion,.aforo,.inspector{
+    display: inline-block;
+    float: none;
+    max-width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+    vertical-align: top;
+    width: 100%;
+}
+.col1,.col2{
+    display: inline-block;
+    float: none;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.giros_grupos{
+    margin-top: 10px;
+}
+#apell_pater, #direc_predial,#ruc,#voucher,#res_defcivil,#area,#vigencia,#capa_aforo_numero,#nominsp_defcvl,#area_defcvl,#sector_desaeco {
+    background-color: #fcfcfc;
+    border: 1px solid #E5E5E5;
+    border-radius: 3px;
+    display: inline-block;
+    display: block;
+    float: left;
+    font-family: Roboto;
+    font-weight: 300;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 5px;
+    vertical-align: top;
+    width: 49%;
+}
+
+#apell_mater,#grupo,#referencia_domicilio,#impr_voucher,#num_cert_defcivil,#cap_max,#arrendar,#capa_aforo_letra,#sigla_defcvl{
+    background-color: #fcfcfc;
+    border: 1px solid #E5E5E5;
+    border-radius: 3px;
+    display: inline-block;
+    display: block;
+    float: right;
+    font-family: Roboto;
+    font-weight: 300;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-right: 5px;
+    padding-left: 15px;
+    vertical-align: top;
+    width: 49%;
+}
+
+input[type="submit"]{
+    background: #F90;
+    border: none;
+    border-radius: 0.2em;
+    -webkit-border-radius: 0.2em;
+    box-shadow: #000 2px 2px 5px;
+    -webkit-box-shadow: #000 2px 2px 5px;
+    color: white;
+    cursor:pointer;
+    display: inline-block;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 25px;
+    width: 45%;
+}
